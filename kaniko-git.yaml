@@ -11,7 +11,7 @@ spec:
     args: ["--context=git://github.com/novoselskiy/hello",
            "--force",
            "--use-new-run",
-           "--destination=vnovoselskiy/hello:latest"]
+           "--destination=vnovoselskiy/hello:0.0.1"]
     volumeMounts:
       - name: kaniko-secret
         mountPath: /kaniko/.docker
